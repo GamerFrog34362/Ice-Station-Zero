@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.1.json",
+	"author": "GamerFrog34362",
+	"name": "Ice Station Zero",
+	"packs": {
+		"behaviorPack": "./packs/BP",
+		"resourcePack": "./packs/RP"
+	},
+	"regolith": {
+		"dataPath": "./packs/data",
+		"filterDefinitions": {},
+		"profiles": {
+			"default": {
+				"export": {
+					"readOnly": false,
+					"target": "preview"
+				},
+				"filters": []
+			}
+		}
+	}
+}
