@@ -1,0 +1,14 @@
+{
+  "name": "ice-station-zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@minecraft/server": "^1.0.0-preview.1.19.60.22"
+  }
+}
