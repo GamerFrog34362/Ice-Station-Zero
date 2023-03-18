@@ -1,0 +1,16 @@
+{
+	"rp": {
+		"C:\\Users\\julie\\AppData\\Local\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang/development_resource_packs/Ice Station Zero_rp": [
+			"manifest.json",
+			"pack_icon.png"
+		]
+	},
+	"bp": {
+		"C:\\Users\\julie\\AppData\\Local\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang/development_behavior_packs/Ice Station Zero_bp": [
+			"manifest.json",
+			"pack_icon.png",
+			"scripts\\main.js",
+			"scripts\\resources\\test.js"
+		]
+	}
+}

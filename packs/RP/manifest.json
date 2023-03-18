@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "header": {
+      "name": "Ice Station Zero RP",
+      "uuid": "582a3db5-fb68-4a75-876c-be3181d8162d",
+      "version":[ 1, 0, 0 ],
+      "min_engine_version": [ 1, 13, 0 ]
+  },
+  "modules": [
+      {
+          "type": "resources",
+          "uuid": "5b8b6f38-356e-499d-ac9f-1310e5dcc820",
+          "version":[ 1, 0, 0 ]
+      }
+  ]
+}

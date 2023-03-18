@@ -1,0 +1,54 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Ice Station Zero BP",
+      "uuid": "354738ba-4719-5a9a-88d4-cf2dad8c866d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        17,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "uuid": "903213ba-ec67-718c-4d4d-f207acc5df3b",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "language": "javascript",
+        "type": "script",
+        "uuid": "fc792a2c-7c72-4e00-884f-83445c3a8309",
+        "version": [
+          1,
+          0,
+          0
+        ],
+        "entry": "scripts/main.js"
+      }
+    ],
+    "dependencies": [
+        
+            {
+                    "description": "@minecraft/server",
+                    "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+                    "version": "1.2.0-beta"
+            },
+            {
+                    "description": "@minecraft/server-ui",
+                    "uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                    "version": "1.0.0-beta"
+            }
+           
+          
+    ]
+  }
