@@ -1,0 +1,35 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "gf:drill",
+            "materials": {
+                "default": "entity_custom"
+            },
+            "textures": {
+                "default": "textures/entity/drill_texture"
+            },
+            "geometry": {
+                "default": "geometry.drill"
+            },
+            
+            "render_controllers": [
+                "controller.render.drill"
+            ],
+            "spawn_egg": {
+                "base_color": "#288483",
+                "overlay_color": "#2B7135"
+            },
+            "animations": {
+                "spin": "animation.drill.spin"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "spin": "query.variant == 1"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "gf:drill",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "runtime_identifier": "minecraft:ender_crystal"
+            
+        },
+        "component_groups": {
+            "spinning": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "notSpinning": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            }
+        },
+        "components": {
+            
+            "minecraft:scale": {
+                "value": 9.3
+            }
+            
+        },
+        "events": {
+            "setSpin": {
+                "add": {
+                    "component_groups": [
+                        "spinning"
+                    ]
+                }
+            },
+            "removeSpin": {
+                "remove": {
+                    "component_groups": [
+                        "notSpinning"
+                    ]
+                }
+            }
+        }
+    }
+}

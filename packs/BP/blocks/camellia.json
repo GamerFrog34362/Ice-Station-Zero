@@ -1,0 +1,48 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gf:camellia",
+            "is_experimental": false,
+            "register_to_creative_menu": true,
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:collision_box": false,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "camellia",
+                    "render_method": "alpha_test"
+                    
+                }
+                
+            },
+            "minecraft:geometry": "geometry.x_flower",
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["grass", "dirt"]
+                    }
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -3,
+                    0,
+                    -3
+                ],
+                "size": [
+                    6,
+                    14,
+                    6
+                ]
+            }
+            
+        }
+    }
+}

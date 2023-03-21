@@ -1,0 +1,23 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"radiator_1": {
+			"textures": "textures/blocks/radiator_texture_1"
+		},
+		"radiator_2": {
+			"textures": "textures/blocks/radiator_texture_2"
+		},
+		"radiator_3": {
+			"textures": "textures/blocks/radiator_texture_3"
+		},
+		"radiator_4": {
+			"textures": "textures/blocks/radiator_texture_4"
+		},
+		"camellia": {
+			"textures": "textures/blocks/camellia_texture"
+		}
+	}
+}

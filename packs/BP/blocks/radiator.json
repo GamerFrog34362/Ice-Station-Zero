@@ -1,0 +1,98 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "gf:radiator",
+			"is_experimental": false,
+			"register_to_creative_menu": true,
+			"menu_category": {
+				"category": "construction"
+			},
+			"properties": {
+				"gf:heat_stage": [
+					1,
+					2,
+					3,
+					4
+				]
+			}
+			
+		},
+		"components": {
+			"minecraft:destroy_time": 0.6,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:geometry": "geometry.radiator",
+			
+			
+			
+			"minecraft:on_player_placing": {
+				"event":"placed",
+				"target": "self"
+			}
+
+			
+		},
+		"events": {
+			"placed": {
+				
+					"set_block_property": {
+						"gf:heat_stage": 1
+					}
+				
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_property('gf:heat_stage') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "radiator_1",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"minecraft:block_light_emission": 0.2
+			},
+			{
+				"condition": "q.block_property('gf:heat_stage') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "radiator_2",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"minecraft:block_light_emission": 0.4
+			},
+			{
+				"condition": "q.block_property('gf:heat_stage') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "radiator_3",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"minecraft:block_light_emission": 0.6
+			},
+			{
+				"condition": "q.block_property('gf:heat_stage') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "radiator_4",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"minecraft:block_light_emission": 0.8
+			}
+		]
+		
+		
+	}
+}
