@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:block": {
         "description": {
-            "identifier": "gf:camellia",
+            "identifier": "gf:daphne",
             "is_experimental": false,
             "register_to_creative_menu": true,
             "menu_category": {
@@ -14,7 +14,7 @@
             "minecraft:collision_box": false,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "camellia",
+                    "texture": "daphne",
                     "render_method": "alpha_test",
                     "face_dimming": false,
                     "ambient_occlusion": false
@@ -34,23 +34,19 @@
             },
             "minecraft:selection_box": {
                 "origin": [
-                    -3,
+                    -5,
                     0,
-                    -3
+                    -5
                 ],
                 "size": [
-                    6,
-                    14,
-                    6
+                    11,
+                    10,
+                    11
                 ]
             }
             
             
-        },
-        "events": {
-            "break": {
-                
-            }
         }
+       
     }
 }

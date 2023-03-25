@@ -51,9 +51,10 @@
 							"texture": "radiator_1",
 							"render_method": "alpha_test"
 						}
-					}
-				},
-				"minecraft:block_light_emission": 0.2
+					},
+					"minecraft:block_light_emission": 0.2
+				}
+				
 			},
 			{
 				"condition": "q.block_property('gf:heat_stage') == 2",
@@ -63,9 +64,10 @@
 							"texture": "radiator_2",
 							"render_method": "alpha_test"
 						}
-					}
-				},
-				"minecraft:block_light_emission": 0.4
+					},
+					"minecraft:block_light_emission": 0.4
+				}
+				
 			},
 			{
 				"condition": "q.block_property('gf:heat_stage') == 3",
@@ -75,9 +77,10 @@
 							"texture": "radiator_3",
 							"render_method": "alpha_test"
 						}
-					}
-				},
-				"minecraft:block_light_emission": 0.6
+					},
+					"minecraft:block_light_emission": 0.6
+				}
+				
 			},
 			{
 				"condition": "q.block_property('gf:heat_stage') == 4",
@@ -87,9 +90,10 @@
 							"texture": "radiator_4",
 							"render_method": "alpha_test"
 						}
-					}
-				},
-				"minecraft:block_light_emission": 0.8
+					},
+					"minecraft:block_light_emission": 0.8
+				}
+				
 			}
 		]
 		

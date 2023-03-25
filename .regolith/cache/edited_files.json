@@ -2,9 +2,13 @@
 	"rp": {
 		"C:\\Users\\julie\\AppData\\Local\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang/development_resource_packs/Ice Station Zero_rp": [
 			"animations\\drillV2.animation.json",
+			"blocks.json",
 			"entity\\drill.json",
+			"fogs\\snow_fog.json",
 			"manifest.json",
-			"models\\blocks\\radiator.geo.json",
+			"models\\blocks\\computer.json",
+			"models\\blocks\\ore_block.json",
+			"models\\blocks\\radiator.json",
 			"models\\blocks\\x_flower.geo.json",
 			"models\\entity\\drillV2.geo.json",
 			"pack_icon.png",
@@ -12,11 +16,16 @@
 			"texts\\en_US.lang",
 			"texts\\languages.json",
 			"textures\\blocks\\camellia_texture.png",
+			"textures\\blocks\\computer_texture.png",
+			"textures\\blocks\\daphne_texture.png",
+			"textures\\blocks\\frostium_texture.png",
 			"textures\\blocks\\radiator_texture_1.png",
 			"textures\\blocks\\radiator_texture_2.png",
 			"textures\\blocks\\radiator_texture_3.png",
 			"textures\\blocks\\radiator_texture_4.png",
+			"textures\\blocks\\snowdrop_texture.png",
 			"textures\\entity\\drill_texture.png",
+			"textures\\flipbook_textures.json",
 			"textures\\item_texture.json",
 			"textures\\items\\clipboard.png",
 			"textures\\terrain_texture.json"
@@ -25,7 +34,11 @@
 	"bp": {
 		"C:\\Users\\julie\\AppData\\Local\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang/development_behavior_packs/Ice Station Zero_bp": [
 			"blocks\\camellia.json",
+			"blocks\\computer.json",
+			"blocks\\daphne.json",
+			"blocks\\frostium.json",
 			"blocks\\radiator.json",
+			"blocks\\snowdrop.json",
 			"entities\\drill.json",
 			"items\\clipboard.json",
 			"manifest.json",
@@ -34,6 +47,8 @@
 			"scripts\\prototypes\\prototypes.js",
 			"scripts\\resources\\eventHandler.js",
 			"scripts\\resources\\events.js",
+			"scripts\\resources\\objects\\objects.js",
+			"scripts\\resources\\rooms\\livingQuarters.js",
 			"scripts\\resources\\uiScreens.js",
 			"structures\\hallway_8.mcstructure",
 			"structures\\l_connector_4.mcstructure"

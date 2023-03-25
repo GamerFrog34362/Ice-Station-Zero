@@ -2,3 +2,7 @@
 tile.gf:radiator.name=Radiator
 item.gf:clipboard=Clipboard
 tile.gf:camellia.name=Camellia
+tile.gf:snowdrop.name=Snowdrop
+tile.gf:daphne.name=Daphne
+tile.gf:frostium.name=Frostium
+tile.gf:computer.name=Computer

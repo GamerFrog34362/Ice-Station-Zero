@@ -18,6 +18,18 @@
 		},
 		"camellia": {
 			"textures": "textures/blocks/camellia_texture"
+		},
+		"snowdrop": {
+			"textures": "textures/blocks/snowdrop_texture"
+		},
+		"daphne": {
+			"textures": "textures/blocks/daphne_texture"
+		},
+		"frostium": {
+			"textures": "textures/blocks/frostium_texture"
+		},
+		"computer": {
+			"textures": "textures/blocks/computer_texture"
 		}
 	}
 }

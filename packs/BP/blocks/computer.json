@@ -1,0 +1,89 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gf:computer",
+            "register_to_creative_menu": true,
+            "menu_category": {
+                "category": "items"
+            },
+            "is_experimental": false,
+            "properties": {
+                "gf:rotation": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "computer",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            
+            },
+            "minecraft:geometry": "geometry.computer",
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -1],
+                "size": [16, 14, 2]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -1],
+                "size": [16, 14, 2]
+            }
+            
+        
+        },
+        "permutations": [
+            {
+				"condition": "q.block_property('gf:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        90,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        180,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        270,
+                        0
+                    ]
+				}
+				
+			}
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/computer_texture",
+    "atlas_tile": "computer",
+    "ticks_per_frame": 20,
+    "frames": [0, 1, 2],
+    "blend_frames": false
+  }
+]
