@@ -9,8 +9,19 @@
 				}
 			],
 			"textures": [
-				"Texture.default"
+				"Array.skins[query.mark_variant]"
 			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.stage_1",
+						"Texture.stage_2",
+						"Texture.stage_3"
+					]
+
+					
+				}
+			},
 			
 			"ignore_lighting": true,
 			"light_color_multiplier": 0.7

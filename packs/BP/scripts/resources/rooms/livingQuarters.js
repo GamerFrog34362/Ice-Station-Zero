@@ -1,5 +1,5 @@
 import {LeverActionEvent, world} from "@minecraft/server"
-import { leverLocations, lightsLocations } from "../objects/objects";
+import { leverLocations, lightsLocations } from "../global/objects";
 /**
  * 
  * @param {LeverActionEvent} event 
@@ -28,13 +28,12 @@ export function toggleSwitch(event) {
 /**let lanternArray = []
 world.events.blockBreak.subscribe(eventData => {
     
-    if(eventData.brokenBlockPermutation.type.id != "minecraft:sea_lantern") return;
+    if(eventData.brokenBlockPermutation.type.id != "gf:radiator") return;
     
     
     lanternArray.push(eventData.block.location)
     console.warn(JSON.stringify(lanternArray));
-})**/
-
+})*/
 
 
 /**
@@ -46,6 +45,7 @@ function lights(lightArray, mode) {
     lightArray.forEach((element) => {
         world.getDimension(`overworld`).runCommandAsync(`setblock ${element.x} ${element.y} ${element.z} ${mode? `air`: `sea_lantern`}`)
     })
+    
 }
 
 

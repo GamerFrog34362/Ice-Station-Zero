@@ -1,0 +1,91 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gf:vent",
+            "register_to_creative_menu": true,
+            "menu_category": {
+                "category": "items"
+            },
+            "is_experimental": false,
+            "properties": {
+                "gf:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "vent",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:geometry": "geometry.vent",
+            "minecraft:collision_box": {
+                "origin": [-7, 0, -5],
+                "size": [14, 0.5, 10]
+            },
+            "minecraft:selection_box": {
+                "origin": [-7, 0, -5],
+                "size": [14, 0.5, 10]
+            }
+            
+            
+        
+        },
+        "permutations": [
+            {
+				"condition": "q.block_property('gf:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        90,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        180,
+                        0
+                    ]
+				}
+				
+			},
+			{
+				"condition": "q.block_property('gf:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+                        0,
+                        270,
+                        0
+                    ]
+				}
+				
+			}
+        ]
+    }
+}

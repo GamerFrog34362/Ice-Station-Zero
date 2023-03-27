@@ -30,6 +30,9 @@
 		},
 		"computer": {
 			"textures": "textures/blocks/computer_texture"
+		},
+		"vent": {
+			"textures": "textures/blocks/vent_texture"
 		}
 	}
 }

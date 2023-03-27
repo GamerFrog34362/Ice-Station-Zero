@@ -7,7 +7,9 @@
                 "default": "entity_custom"
             },
             "textures": {
-                "default": "textures/entity/drill_texture"
+                "stage_1": "textures/entity/drill_texture_level1",
+                "stage_2": "textures/entity/drill_texture_level2",
+                "stage_3": "textures/entity/drill_texture_level3"
             },
             "geometry": {
                 "default": "geometry.drill"
@@ -25,9 +27,7 @@
             },
             "scripts": {
                 "animate": [
-                    {
-                        "spin": "query.variant == 1"
-                    }
+                    "spin"
                 ]
             }
         }

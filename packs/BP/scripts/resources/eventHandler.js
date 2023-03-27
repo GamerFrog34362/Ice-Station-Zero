@@ -1,6 +1,7 @@
 import { world } from "@minecraft/server";
 import { showMain } from "./uiScreens";
 import { toggleSwitch } from "./rooms/livingQuarters";
+import { computerCoords } from "./global/objects";
 
 
 world.events.itemUse.subscribe(eventData => {
@@ -27,4 +28,8 @@ world.events.leverActivate.subscribe(eventData => {
 
 })
 //block.setWithProps({"gf:heat_stage": 3})
+
+world.events.itemUseOn.subscribe(eventData => {
+    const location = eventData.getBlockLocation()
+})
 
